@@ -1,0 +1,25 @@
+{
+  "name": "immobilise",
+  "version": "0.0.1",
+  "description": "Immobilise des trucs",
+  "main": "src/immobilise.js",
+  "scripts": {
+    "test": "mocha ./specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattjmattj/immobilise.js.git"
+  },
+  "keywords": [
+    "immobilise"
+  ],
+  "author": "Matthias Jouan <matthias.jouan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattjmattj/immobilise.js/issues"
+  },
+  "homepage": "https://github.com/mattjmattjimmobilise.js",
+  "devDependencies": {
+    "should": "^11.2.0"
+  }
+}
