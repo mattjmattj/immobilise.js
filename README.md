@@ -3,7 +3,7 @@
 ## pourquoi ?
 Les partisans de François FIllon nous l'ont expliqué : ["Les tenants de l'immobilise veulent empêcher l'alternance politique. #StopChasseàLHomme"](https://twitter.com/search?f=tweets&vertical=default&q=tenants%20de%20l%27immobilise&src=typd)
 
-Tu veux mettre dire stop à la chasse à l'homme dans tes objets javascript ?
+Tu veux dire stop à la chasse à l'homme dans tes objets javascript ?
 Tu te reconnais plutôt parmi les tenants de l'immobilise ? immobilise.js est fait pour toi.
 
 ## exemple
