@@ -44,7 +44,7 @@ console.log(situation.gouvernement)
 Bien sûr, on peut à tout moment dire stop à la chasse à l'homme
 
 ```javascript
-stopALaChasseALHomme(situation, "gouvernement")
+stopChasseALHomme(situation, "gouvernement")
 
 situation.gouvernement = "Matthias président !"
 

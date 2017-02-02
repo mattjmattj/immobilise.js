@@ -2,9 +2,9 @@ var should = require('should')
 
 var Immobilise = require("../src/immobilise")
 var immobilise = Immobilise.immobilise;
-var stopALaChasseALHomme = Immobilise.stopALaChasseALHomme;
+var stopChasseALHomme = Immobilise.stopChasseALHomme;
 
-describe ('stopALaChasseALHomme', function() {
+describe ('stopChasseALHomme', function() {
   
   it('doit mettre à mal les tenants de l\'immobilise', function() {
     var situation = {
@@ -12,7 +12,7 @@ describe ('stopALaChasseALHomme', function() {
     }
     
     immobilise(situation, 'gouvernement')
-    stopALaChasseALHomme(situation, 'gouvernement')
+    stopChasseALHomme(situation, 'gouvernement')
     
     
     should(function(){situation.gouvernement = "Matthias président !"}).not.throw()

@@ -20,7 +20,7 @@ function immobilise(object, property) {
   return object
 }
 
-function stopALaChasseALHomme (object, property) {
+function stopChasseALHomme (object, property) {
   var previousValue
   if (typeof object[property] != 'undefined') {
     previousValue = object[property]
@@ -34,5 +34,5 @@ function stopALaChasseALHomme (object, property) {
 
 module.exports = {
   immobilise: immobilise,
-  stopALaChasseALHomme: stopALaChasseALHomme
+  stopChasseALHomme: stopChasseALHomme
 }
